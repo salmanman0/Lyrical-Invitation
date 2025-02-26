@@ -38,7 +38,7 @@ function Navbar({ bgColor = "bg-primary" }) {
         <Link to="/review" className={`hover:text-yellow-500 font-arima ${location.pathname === "/review" ? "border-b-2 border-yellow-500" : ""}`}>Review</Link>
         <Link to="/blog" className={`hover:text-yellow-500 font-arima ${location.pathname === "/blog" ? "border-b-2 border-yellow-500" : ""}`}>Blogs</Link>
       </div>
-      <button className="mr-4 px-4 py-2 bg-yellow-500 font-poppins font-medium text-putih text-md rounded-lg hover:bg-black-400">
+      <button className="mr-4 px-4 py-3 bg-yellow-500 hover:bg-yellow-400 font-poppins font-medium text-putih text-md rounded-lg">
         Contact Us
       </button>
     </nav>
