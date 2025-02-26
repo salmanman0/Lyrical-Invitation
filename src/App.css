@@ -1,3 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100..900&display=swap');
+
+.font-arima {
+  font-family: 'Arima', serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --primary: #004E5A;
+  --secondary: #FD6A02;
+  --secondary-other: #DCE5D6;
+  --putih: #FAFAFA;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
+.bg-secondary-other {
+  background-color: var(--secondary-other);
+}
+.bg-putih {
+  background-color: var(--putih);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.text-secondary-other {
+  color: var(--secondary-other);
+}
+
+.text-putih {
+  color: var(--putih);
+}
+
+.text-customBlue {
+  color: var(--custom-blue);
+}
+
+
 .App {
   text-align: center;
 }
